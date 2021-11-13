@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-13T23:30:18 IST" name="Suite" finished-at="2021-11-13T23:30:57 IST" duration-ms="39196">
+    <groups>
+    </groups>
+    <test started-at="2021-11-13T23:30:18 IST" name="FbLoginTest" finished-at="2021-11-13T23:30:57 IST" duration-ms="39196">
+      <class name="practiceMaven.FbDataProvider">
+        <test-method is-config="true" signature="intializeBrowser(java.lang.String)[pri:0, instance:practiceMaven.FbDataProvider@59309333]" started-at="2021-11-13T23:30:18 IST" name="intializeBrowser" finished-at="2021-11-13T23:30:19 IST" duration-ms="1686" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeBrowser -->
+        <test-method signature="launchApp(java.lang.String)[pri:1, instance:practiceMaven.FbDataProvider@59309333]" started-at="2021-11-13T23:30:19 IST" name="launchApp" finished-at="2021-11-13T23:30:20 IST" duration-ms="876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="LoginDetails(java.lang.String,java.lang.String)[pri:2, instance:practiceMaven.FbDataProvider@59309333]" started-at="2021-11-13T23:30:21 IST" name="LoginDetails" data-provider="getTestData" finished-at="2021-11-13T23:30:31 IST" duration-ms="10199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jim123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDetails -->
+        <test-method signature="LoginDetails(java.lang.String,java.lang.String)[pri:2, instance:practiceMaven.FbDataProvider@59309333]" started-at="2021-11-13T23:30:31 IST" name="LoginDetails" data-provider="getTestData" finished-at="2021-11-13T23:30:42 IST" duration-ms="10185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jack]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jack123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDetails -->
+        <test-method signature="LoginDetails(java.lang.String,java.lang.String)[pri:2, instance:practiceMaven.FbDataProvider@59309333]" started-at="2021-11-13T23:30:42 IST" name="LoginDetails" data-provider="getTestData" finished-at="2021-11-13T23:30:52 IST" duration-ms="10182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practiceMaven.FbDataProvider@59309333]" started-at="2021-11-13T23:30:52 IST" name="tearDown" finished-at="2021-11-13T23:30:57 IST" duration-ms="5141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- practiceMaven.FbDataProvider -->
+    </test> <!-- FbLoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>
